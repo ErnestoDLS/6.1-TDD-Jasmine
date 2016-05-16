@@ -30,6 +30,7 @@ describe("Github Request Spec", function(){
 
   it("Requests data from URL", function(){
     spyOn(githubRequest, "getData");
+    githubRequest.getData("https://api.github.com/users/ernestodls");
     expect(githubRequest.getData).toHaveBeenCalledWith("https://api.github.com/users/ernestodls");
   });
 });
