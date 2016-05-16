@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module 'jquery' from '/Users/ernestodelossantos/git/6.1-TDD-Jasmine/lib'");
